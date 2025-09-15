@@ -1,0 +1,91 @@
+.contact {
+  padding: 5rem 0;
+  text-align: center;
+  background: white;
+  transition: background-color 0.3s ease;
+}
+
+.dark .contact {
+  background: #1a1a1a;
+}
+
+.contact h2 {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.dark .contact h2 {
+  color: #bbb;
+}
+
+.contact h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+  transition: color 0.3s ease;
+}
+
+.dark .contact h3 {
+  color: #e5e5e5;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #666;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  background: #f5f5f5;
+  transition: all 0.3s ease;
+}
+
+.dark .contact-item {
+  background: #333;
+  color: #bbb;
+}
+
+.contact-item:hover {
+  background: #eee;
+  color: #333;
+}
+
+.dark .contact-item:hover {
+  background: #444;
+  color: #e5e5e5;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.footer-nav a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.dark .footer-nav a {
+  color: #bbb;
+}
+
+.footer-nav a:hover {
+  color: #333;
+}
+
+.dark .footer-nav a:hover {
+  color: #e5e5e5;
+}

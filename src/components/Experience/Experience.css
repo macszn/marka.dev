@@ -1,0 +1,147 @@
+.experience {
+  padding: 5rem 0;
+  background: white;
+  transition: background-color 0.3s ease;
+}
+
+.dark .experience {
+  background: #1a1a1a;
+}
+
+.experience-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.dark h2 {
+  color: #e5e5e5;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.tab-btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  border: none;
+  background: #eee;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dark .tab-btn {
+  background: #444;
+  color: #bbb;
+}
+
+.tab-btn.active {
+  background: #333;
+  color: white;
+}
+
+.dark .tab-btn.active {
+  background: #e5e5e5;
+  color: #1a1a1a;
+}
+
+.timeline {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background: #eee;
+  top: 0;
+  transition: background-color 0.3s ease;
+}
+
+.dark .timeline-line {
+  background: #444;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 3rem;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #333;
+  border: 3px solid white;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.dark .timeline-dot {
+  background: #e5e5e5;
+  border: 3px solid #1a1a1a;
+}
+
+.timeline-content {
+  background: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.dark .timeline-content {
+  background: #333;
+}
+
+.timeline-content h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.dark .timeline-content h3 {
+  color: #e5e5e5;
+}
+
+.company {
+  color: #666;
+  margin: 0.5rem 0;
+  transition: color 0.3s ease;
+}
+
+.dark .company {
+  color: #bbb;
+}
+
+.duration {
+  color: #999;
+  font-size: 0.9rem;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.dark .duration {
+  color: #888;
+}

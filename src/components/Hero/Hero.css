@@ -1,0 +1,155 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 2rem;
+  background: white;
+  transition: background-color 0.3s ease;
+}
+
+.dark .hero {
+  background: #1a1a1a;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero-image {
+  flex: 1;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.hero-image img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hero-text {
+  flex: 1;
+  text-align: left;
+}
+
+.hello-text {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+.dark .hello-text {
+  color: #bbb;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #333;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  transition: color 0.3s ease;
+}
+
+.dark h1 {
+  color: #e5e5e5;
+}
+
+.role {
+  font-size: 2rem;
+  color: #666;
+  margin-bottom: 2rem;
+  transition: color 0.3s ease;
+}
+
+.dark .role {
+  color: #bbb;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 1rem 2.5rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn.primary {
+  background: #333;
+  color: white;
+  border: none;
+}
+
+.dark .btn.primary {
+  background: #e5e5e5;
+  color: #1a1a1a;
+}
+
+.btn.secondary {
+  background: white;
+  color: #333;
+  border: 2px solid #333;
+}
+
+.dark .btn.secondary {
+  background: #1a1a1a;
+  color: #e5e5e5;
+  border: 2px solid #e5e5e5;
+}
+
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.social-links a {
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.dark .social-links a {
+  color: #bbb;
+}
+
+.social-links a:hover {
+  color: #333;
+}
+
+.dark .social-links a:hover {
+  color: #e5e5e5;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .cta-buttons {
+    justify-content: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}
