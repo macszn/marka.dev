@@ -22,10 +22,24 @@
   color: #333;
   font-weight: 500;
   transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 .dark .navbar-brand {
   color: #e5e5e5;
+}
+
+.navbar-logo {
+  height: 32px;
+  width: 32px;
+  object-fit: contain;
+  transition: filter 0.3s ease;
+}
+
+.dark .navbar-logo {
+  filter: brightness(0) invert(1);
 }
 
 .navbar-links {

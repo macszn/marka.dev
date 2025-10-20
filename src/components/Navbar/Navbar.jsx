@@ -1,11 +1,15 @@
 import React from 'react';
 import { Moon, Sun } from 'lucide-react';
+import Personalogo from '../../../assets/Personalogo.png';
 import './Navbar.css';
 
 function Navbar({ isDarkMode, toggleTheme }) {
   return (
     <nav className="navbar">
-      <div className="navbar-brand">Tetteh Mark Addo</div>
+      <div className="navbar-brand">
+        <img src={Personalogo} alt="Personal Logo" className="navbar-logo" />
+        Tetteh Mark Addo
+      </div>
       <div className="navbar-links">
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
