@@ -46,6 +46,8 @@
   display: flex;
   gap: 2rem;
   align-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 .navbar-links a {
@@ -91,4 +93,20 @@
 
 .dark .theme-toggle-btn:hover {
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem 1.5rem;
+  }
+
+  .navbar-links {
+    gap: 1.25rem;
+    padding-bottom: 0.5rem;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .navbar-links::-webkit-scrollbar {
+    display: none;
+  }
 }
