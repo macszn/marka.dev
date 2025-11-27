@@ -48,6 +48,14 @@
   align-items: center;
   overflow-x: auto;
   white-space: nowrap;
+  padding-right: 2rem;
+  padding-bottom: 0.35rem;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.8) transparent;
+}
+
+.dark .navbar-links {
+  scrollbar-color: rgba(255, 255, 255, 0.4) transparent;
 }
 
 .navbar-links a {
@@ -95,6 +103,24 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.navbar-links::-webkit-scrollbar {
+  height: 3px;
+  background: transparent;
+}
+
+.navbar-links::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.navbar-links::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 999px;
+}
+
+.dark .navbar-links::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
 @media (max-width: 768px) {
   .navbar {
     padding: 1rem 1.5rem;
@@ -104,9 +130,5 @@
     gap: 1.25rem;
     padding-bottom: 0.5rem;
     -webkit-overflow-scrolling: touch;
-  }
-
-  .navbar-links::-webkit-scrollbar {
-    display: none;
   }
 }
