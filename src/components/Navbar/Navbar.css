@@ -18,28 +18,26 @@
 }
 
 .navbar-brand {
-  font-size: 1.25rem;
-  color: #333;
-  font-weight: 500;
-  transition: color 0.3s ease;
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  transition: color 0.3s ease;
 }
 
 .dark .navbar-brand {
   color: #e5e5e5;
 }
 
-.navbar-logo {
-  height: 32px;
-  width: 32px;
-  object-fit: contain;
-  transition: filter 0.3s ease;
+.navbar-brand-mark {
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: #111;
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
-.dark .navbar-logo {
-  filter: brightness(0) invert(1);
+.dark .navbar-brand-mark {
+  color: #f5f5f5;
 }
 
 .navbar-links {

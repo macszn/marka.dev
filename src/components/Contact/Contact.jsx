@@ -6,7 +6,7 @@ function Contact() {
   return (
     <section id="contact" className="contact">
       <h2>Get in Touch</h2>
-      <h3>Contact Me</h3>
+      <h3>I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</h3>
       <div className="contact-links">
         <a href="mailto:markaddo143@gmail.com" className="contact-item">
           <Mail size={20} />

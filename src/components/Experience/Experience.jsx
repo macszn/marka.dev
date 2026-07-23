@@ -16,11 +16,7 @@ function Experience() {
         company: 'GRIDCo',
         duration: 'Sept 2024 - Oct 2024'
       },
-      {
-        title: 'Information Management Intern',
-        company: 'Tech Company',
-        duration: 'Mar 2024 - Aug 2024'
-      },
+      
       {
         title: 'Senior Compound Prefect',
         company: 'Christian Vertical Centre School',
@@ -34,17 +30,13 @@ function Experience() {
         duration: 'Jan 2022 - Dec 2022'
       },
       {
-        title: 'Technical Directing Member',
+        title: 'Media Team Member',
         company: 'Vertical Centre, Church of Christ',
         duration: 'Jan 2024 - Present'
       },
+
       {
-        title: 'Science & Maths Quiz Team',
-        company: 'Achimota School',
-        duration: 'Jan 2021 - July 2021'
-      },
-      {
-        title: 'MXP Member',
+        title: 'Operations Coordinator',
         company: 'AIESEC',
         duration: 'Mar 2023 - Aug 2024'
       }

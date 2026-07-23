@@ -1,5 +1,5 @@
 import React from 'react';
-import { Briefcase, GraduationCap, Brain, Code, Database, Server } from 'lucide-react';
+import { Briefcase, GraduationCap, Brain, Code, Database, Server, Wrench, Languages } from 'lucide-react';
 import './About.css';
 
 function About() {
@@ -17,22 +17,32 @@ function About() {
     {
       icon: <Code size={32} />,
       title: 'Frontend',
-      description: 'React, Python, React Native'
+      description: 'React, Tailwind CSS, React Native'
     },
     {
       icon: <Server size={32} />,
       title: 'Backend',
-      description: 'Node.js, Python, Java'
+      description: 'Node.js, Python, REST APIs, Django'
     },
     {
       icon: <Database size={32} />,
       title: 'Database',
-      description: 'MySQL, MongoDB '
+      description: 'MySQL, MongoDB, PostgreSQL'
     },
     {
       icon: <Brain size={32} />,
       title: 'AI/ML',
       description: 'TensorFlow, PyTorch'
+    },
+    {
+      icon: <Wrench size={32} />,
+      title: 'Tools',
+      description: 'Git, GitHub, Postman, Render, VS Code, Docker'
+    },
+    {
+      icon: <Languages size={32} />,
+      title: 'Language',
+      description: 'TypeScript, Python, JavaScript'
     }
   ];
 

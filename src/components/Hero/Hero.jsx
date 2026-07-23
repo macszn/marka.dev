@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import profileImage from '../../../assets/photo_2025-06-21_00-17-48.jpg';
 import './Hero.css';
 
@@ -19,11 +19,14 @@ function Hero() {
             <a href="#contact" className="btn secondary">Contact Info</a>
           </div>
           <div className="social-links">
-            <a href="http://linkedin.com/in/mark-tetteh-addo-366b5b25b" target="_blank" rel="noopener noreferrer">
+            <a href="http://linkedin.com/in/mark-tetteh-addo-366b5b25b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <Linkedin size={28} />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <Github size={28} />
+            </a>
+            <a href="mailto:markaddo143@gmail.com" aria-label="Email">
+              <Mail size={28} />
             </a>
           </div>
         </div>
