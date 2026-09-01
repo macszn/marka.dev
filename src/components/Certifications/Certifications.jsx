@@ -5,16 +5,18 @@ import IBMImage from '../../../assets/IBM.png';
 
 const certifications = [
   {
-    title: 'Cisco Certified Network Associate',
-    issuer: 'Cisco',
-    image: CiscoImage,
-    description: 'Networking Fundamentals credential'
-  },
-  {
-    title: 'IBM Data Science Professional Certificate',
+    title: 'IBM AI Fundamentals Professional Certificate',
     issuer: 'IBM',
     image: IBMImage,
-    description: 'Data science and AI learning credential'
+    description: 'AI fundamentals and applications credential',
+    verifyUrl: 'https://www.credly.com/badges/00f2b461-b3b5-43e7-bad0-60f410358181'
+  },
+  {
+    title: 'Cisco Certified Cybersecurity Analyst',
+    issuer: 'Cisco',
+    image: CiscoImage,
+    description: 'Cybersecurity fundamentals and practices credential',
+    verifyUrl: 'https://www.credly.com/badges/e40ee021-a9e6-487b-b9ad-41ba4cadc3d9/public_url'
   }
 ];
 
@@ -75,6 +77,15 @@ function Certifications() {
               <h3>{selectedCredential.title}</h3>
               <p>{selectedCredential.description}</p>
             </div>
+
+            <a
+              href={selectedCredential.verifyUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="verify-button"
+            >
+              Verify
+            </a>
           </div>
         </div>
       )}
